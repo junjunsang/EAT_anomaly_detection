@@ -29,7 +29,7 @@ EAT-Anomaly-Detection/
 
 ```bash
 pip install torch torchaudio transformers peft pyod scikit-learn tqdm numpy scipy joblib
-
+```
 
 ##  Usage Pipeline
 
@@ -105,3 +105,4 @@ python evaluate.py -k 1 --w 0.5
 ```
 
 ```
+
