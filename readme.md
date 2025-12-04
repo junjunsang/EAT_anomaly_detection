@@ -90,15 +90,14 @@ python evaluate_deepSVDD.py
 
 #### Option B: Ensemble (KNN + Statistics)
 
-별도의 추가 학습 없이, 임베딩 거리(Cosine)와 통계적 거리(Mahalanobis)를 결합하여 평가합니다.
+별도의 추가 학습 없이, 임베딩 거리(Cosine)를 이용하여 평가합니다.
 
-  - `-k`: KNN 탐색 시 고려할 이웃 수 (기본값: 1)
-  - `--w`: 임베딩 점수 가중치 (0.0 \~ 1.0, 기본값: 1.0)
 
 <!-- end list -->
 
 ```bash
-python evaluate.py -k 1 --w 0.5
+python evaluate.py
 ```
+
 
 
