@@ -4,7 +4,7 @@
 
 **Efficient Audio Transformer (EAT)** 를 백본으로 사용하며, **LoRA (Low-Rank Adaptation)** 를 적용하여 파라미터 효율적인 튜닝을 수행합니다. 이상 탐지 단계에서는 **Deep SVDD** 방식과 **Ensemble (KNN + Statistics)** 방식을 모두 지원합니다.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 EAT-Anomaly-Detection/
@@ -101,8 +101,4 @@ python evaluate_deepSVDD.py
 python evaluate.py -k 1 --w 0.5
 ```
 
-
-```
-
-```
 
