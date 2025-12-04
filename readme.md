@@ -1,4 +1,4 @@
-````markdown
+
 # 🔊 EAT-LoRA Anomaly Detection (DCASE Task 2)
 
 이 프로젝트는 **DCASE Task 2 (Unsupervised Anomalous Sound Detection)** 를 해결하기 위한 딥러닝 모델링 파이프라인입니다.
@@ -30,7 +30,7 @@ EAT-Anomaly-Detection/
 
 ```bash
 pip install torch torchaudio transformers peft pyod scikit-learn tqdm numpy scipy joblib
-```
+
 
 ## 🚀 Usage Pipeline
 
@@ -113,4 +113,5 @@ python evaluate.py -k 1 --w 0.5
 This project is open-source.
 
 ```
+
 ```
